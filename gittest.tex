@@ -1,0 +1,39 @@
+\documentclass{article}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\title{My first LaTeX document}
+\author{Dávid Zachar}
+\date{6 November 2022}
+\begin{document}
+\maketitle
+\tableofcontents
+\begin{abstract}
+First document. \emph{This} is a simple \textbf{example}, \textit{with} \underline{no} 
+extra parameters or packages included. \LaTeX{} $E=mc^2$.\\
+$a_b$ and superscripts are written as $a^b$.
+\end{abstract}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics{obrazok1}
+    \caption{A nice plot.}
+    \label{fig:mesh1}
+\end{figure}
+
+\begin{enumerate}
+  \item The individual entries are indicated with a black dot, a so-called bullet.
+  \item The text in the entries may be of any length.
+\end{enumerate}
+
+\includegraphics{obrazok1} 
+
+\section{Introduction}
+   
+This is the first section.
+      
+Lorem  ipsum  dolor  sit  amet,  consectetuer  adipiscing  
+elit.   Etiam  lobortisfacilisis sem.  Nullam nec mi et 
+neque pharetra sollicitudin.  Praesent imperdietmi nec ante. 
+Donec ullamcorper, felis non sodales...
+%hvgvgvgvv
+\end{document}
